@@ -3,39 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lumix Studio - home page</title>
+    <title>Lumix Studio - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <hearder>
-        <img src="assets/img/LogoLumix.png" alt="Logo_da_Lumix">
-        <p>Um Studio de jogos independentes focado em qualidade</p> 
-        <button id="verjogos">Ver Jogos</button>
-    </hearder>
-    
+
+    <!-- HEADER / HERO -->
+    <header class="hero">
+        <img src="assets/img/LogoLumix.png" alt="Logo da Lumix Studio" class="logo">
+
+        <h1>Lumix Studio</h1>
+        <p>Um estúdio de jogos independentes focado em qualidade e organização.</p>
+
+        <a href="jogos.html" class="btn">Ver Jogos</a>
+    </header>
+
+    <!-- DESTAQUES -->
     <main>
-        <div name="destaques">
-            <div name = "anuncio01">
-                <h3>The Prepers</h3>
-                <p></p>
 
+        <section class="destaques">
+            <h2>🔥 Em Desenvolvimento</h2>
+
+            <div class="cards">
+
+                <!-- JOGO 1 -->
+                <div class="card">
+                    <img src="assets/img/theprepers.jpg" alt="The Prepers">
+                    <h3>The Prepers</h3>
+                    <p>Jogue na pele (ou ectoplasma) de um personagem carismático enquanto luta contra o mal!</p>
+                    <div class="botoes">
+                        <a href="#" class="btn-pequeno">Download</a>
+                        <a href="jogos.html" class="btn-secundario">Ver mais</a>
+                    </div>
+                </div>
+
+                <!-- JOGO 2 -->
+                <div class="card">
+                    <img src="assets/img/jogo2.jpg" alt="Novo Projeto">
+                    <h3>Projeto Secreto</h3>
+                    <p>Um novo jogo em desenvolvimento. Mais informações em breve.</p>
+                    <div class="botoes">
+                        <a href="#" class="btn-pequeno">Em breve</a>
+                        <a href="jogos.html" class="btn-secundario">Ver mais</a>
+                    </div>
+                </div>
+
+                <!-- JOGO 3 -->
+                <div class="card">
+                    <img src="assets/img/jogo3.jpg" alt="Novo Projeto">
+                    <h3>Projeto Futuro</h3>
+                    <p>Explorando novas ideias e mecânicas criativas.</p>
+                    <div class="botoes">
+                        <a href="#" class="btn-pequeno">Em breve</a>
+                        <a href="jogos.html" class="btn-secundario">Ver mais</a>
+                    </div>
+                </div>
 
             </div>
+        </section>
 
-            <div name = "anuncio02">
-
-
-            </div>
-
-            <div name = "anuncio03">
-
-
-            </div>
-        </div>
     </main>
-    
+
+    <!-- FOOTER -->
     <footer>
-        
+        <p>© 2026 Lumix Studio - Todos os direitos reservados</p>
+
+        <div class="social">
+            <a href="https://github.com/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
+            </a>
+
+            <a href="mailto:contato@lumix.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email">
+            </a>
+        </div>
     </footer>
 
 </body>
