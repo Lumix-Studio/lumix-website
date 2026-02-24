@@ -2,12 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: #0f0f0f;
+    background-image: radial-gradient(
+        circle at top left,
+        rgba(108, 99, 255, 0.15),
+        transparent 40%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(108, 99, 255, 0.10),
+        transparent 40%
+    );
     color: #ffffff;
+
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .hero {
@@ -44,28 +55,29 @@ body {
 }
 
 .destaques {
-    padding: 40px 20px;
+    margin-top: 80px;
     text-align: center;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    gap: 40px;
+    margin-top: 50px;
 }
 
 .card {
-    background-color: #1a1a1a;
+    background-color: #181530;
     width: 280px;
-    padding: 20px;
-    border-radius: 10px;
-    transition: 0.3s;
+    padding: 25px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(108, 99, 255, 0.25);
 }
 
 .card img {
@@ -123,4 +135,62 @@ footer {
 
 .social img:hover {
     transform: scale(1.2);
+}
+
+.loja {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.jogo-detalhe {
+    display: flex;
+    gap: 40px;
+    background-color: #181530;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.jogo-detalhe img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.info-jogo {
+    flex: 1;
+}
+
+.avaliacao {
+    margin: 10px 0;
+    color: #f5c518;
+}
+
+.descricao {
+    margin: 15px 0;
+    color: #cccccc;
+}
+
+.preco {
+    font-size: 1.4rem;
+    margin: 15px 0;
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+.botoes-loja {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.comentarios {
+    margin-top: 50px;
+}
+
+.comentario {
+    background-color: #181530;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
 }
