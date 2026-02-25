@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    background-image: radial-gradient(
+        circle at top left,
+        rgba(108, 99, 255, 0.15),
+        transparent 40%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(108, 99, 255, 0.10),
+        transparent 40%
+    );
+    color: #ffffff;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    color: #bbbbbb;
+}
+
+.btn {
+    background-color: #6c63ff;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #574fd6;
+}
+
+.destaques {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #181530;
+    width: 280px;
+    padding: 25px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(108, 99, 255, 0.25);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-pequeno {
+    background-color: #6c63ff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.btn-secundario {
+    background-color: transparent;
+    border: 1px solid #6c63ff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6c63ff;
+    font-size: 0.8rem;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    background-color: #111;
+}
+
+.social img {
+    width: 30px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
