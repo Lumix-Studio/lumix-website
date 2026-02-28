@@ -1,0 +1,54 @@
+/* AUTH PAGES */
+
+body{
+    color: #ffffff;
+}
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    background-color: #181530;
+    padding: 40px;
+    border-radius: 16px;
+    width: 360px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #111;
+    color: white;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-footer a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
+
+.voltar:hover {
+    color: #ffffff;
+}

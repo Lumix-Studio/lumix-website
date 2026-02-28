@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagamento - Lumix Studio</title>
+<link rel="stylesheet" href="../assets/css/styleLogin.css">
+<script>
+function pagar(e){
+  e.preventDefault();
+  alert("Pagamento realizado com sucesso! 🎉");
+  window.location.href="index.html";
+}
+</script>
+</head>
+<body>
+<header class="hero">
+<button onclick="history.back()" class="voltar">← Voltar</button>
+<h1>Pagamento</h1>
+</header>
+
+<main>
+<form onsubmit="pagar(event)">
+  <label>Nome no cartão</label>
+  <input type="text" required>
+
+  <label>Número do cartão</label>
+  <input type="text" required>
+
+  <label>Validade</label>
+  <input type="month" required>
+
+  <label>CVV</label>
+  <input type="text" required>
+
+  <button type="submit" class="btn">Confirmar Compra</button>
+</form>
+</main>
+
+<footer>
+<p>© 2026 Lumix Studio</p>
+</footer>
+</body>
+</html>

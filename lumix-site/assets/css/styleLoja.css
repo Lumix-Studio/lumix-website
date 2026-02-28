@@ -1,0 +1,63 @@
+
+.hero{
+    color:#a4a1e9;
+    color-scheme: initial;
+    
+}
+.loja {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.jogo-detalhe {
+    display: flex;
+    gap: 40px;
+    background-color: #181530;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.jogo-detalhe img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.info-jogo {
+    flex: 1;
+}
+
+.avaliacao {
+    margin: 10px 0;
+    color: #f5c518;
+}
+
+.descricao {
+    margin: 15px 0;
+    color: #cccccc;
+}
+
+.preco {
+    font-size: 1.4rem;
+    margin: 15px 0;
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+.botoes-loja {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.comentarios {
+    margin-top: 50px;
+}
+
+.comentario {
+    background-color: #181530;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}

@@ -5,38 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumix Studio - Jogos</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/styleGeral.css">
+    <link rel="stylesheet" href="../assets/css/styleLoja.css">
+    <script src="../assets/js/jogos.js"></script>
 </head>
 <body>
 
 <header class="hero">
-    <h1>Nossos Jogos</h1>
-    <p>Explore os projetos da Lumix Studio.</p>
+    <button class="voltar" onclick="history.back()">← Voltar</button>
+    <h1><strong>Loja Lumix</strong></h1>
+    <p style="font-family: cursive;"><i>Explore os projetos da Lumix Studio.</i></p>
 </header>
 
 <main class="loja">
 
-<section class="barra-pesquisa">
-
-    <input type="text" placeholder="Pesquisar jogos...">
-
-    <select>
-        <option value="">Categoria</option>
-        <option>Ação</option>
-        <option>Aventura</option>
-        <option>RPG</option>
-        <option>Indie</option>
-    </select>
-
-    <select>
-        <option value="">Preço</option>
-        <option>Gratuito</option>
-        <option>Até R$ 20</option>
-        <option>Até R$ 50</option>
-    </select>
-
-</section>
-
     <div class="jogo-detalhe">
 
         <img src="../assets/img/Jogos/ThePrepers.png" alt="cara do The Prepers">
@@ -46,8 +28,8 @@
             
 
             <div class="avaliacao">
-                ⭐⭐⭐⭐☆
-                <span>(4.5 / 5)</span>
+                <div id="estrelas"></div>
+                <span id="media"></span>
             </div>
 
             <p class="descricao">
@@ -61,7 +43,8 @@
             </div>
 
             <div class="botoes-loja">
-                <a href="#" class="btn">Comprar</a>
+                <a href="../core/compra.html" class="btn">Comprar</a>
+                <button value="addcarrinho" class= "btn" >Adicionar ao carrinho</button>
                 <a href="#" class="btn-secundario">Download Demo (Grátis)</a>
             </div>
 
@@ -73,63 +56,13 @@
         <h3>Avaliações</h3>
 
         <div class="comentario">
-            <strong>Lucas</strong>
-            <p>Jogo muito divertido e criativo! Recomendo demais.</p>
+            <strong>Lumix.Studio</strong>
+            <p>Esse jogos ainda não possui comentários, então seja o primeiro!</p>
         </div>
-
-        <div class="comentario">
-            <strong>Ana</strong>
-            <p>Gostei bastante da atmosfera e da trilha sonora.</p>
-        </div>
-        <br>
     </section>
 
-    <div class="jogo-detalhe">
-
-        <img src="../assets/img/Jogos/ThePrepers.png" alt="cara do The Prepers">
-
-        <div class="info-jogo">
-            <h2>The Prepers</h2>
-            
-
-            <div class="avaliacao">
-                ⭐⭐⭐⭐☆
-                <span>(4.5 / 5)</span>
-            </div>
-
-            <p class="descricao">
-                Em The Prepers, você controla um personagem carismático 
-                que enfrenta forças misteriosas em um mundo cheio de desafios.
-                Explore, lute e descubra segredos ocultos.
-            </p>
-
-            <div class="preco">
-                R$ (Indefinido)
-            </div>
-
-            <div class="botoes-loja">
-                <a href="#" class="btn">Comprar</a>
-                <a href="#" class="btn-secundario">Download Demo (Grátis)</a>
-            </div>
-
-        </div>
-
+    
     </div>
-
-    <section class="comentarios">
-        <h3>Avaliações</h3>
-
-        <div class="comentario">
-            <strong>Lucas</strong>
-            <p>Jogo muito divertido e criativo! Recomendo demais.</p>
-        </div>
-
-        <div class="comentario">
-            <strong>Ana</strong>
-            <p>Gostei bastante da atmosfera e da trilha sonora.</p>
-        </div>
-        <br>
-    </section>
 </main>
 
 <footer>
